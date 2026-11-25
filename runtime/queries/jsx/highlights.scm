@@ -155,3 +155,9 @@
 
 ((jsx_attribute) @_jsx_attribute
   (#set! @_jsx_attribute bo.commentstring "// %s"))
+
+((statement_block) @_statement_block
+  (#set! @_statement_block bo.commentstring "// %s"))
+
+((arguments) @_arguments
+  (#set! @_arguments bo.commentstring "// %s"))
